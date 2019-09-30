@@ -1,38 +1,36 @@
 {
     "name": "zahidcse/helloworld",
-    "description": "helloworld.",
+    "description": "common files used in development of a php project",
+    "keywords": ["php","common"],
     "type": "library",
-    "keywords": [
-        "utilities",
-        "helloworld",
-        "laravel",
-        "php"
-    ],
+    "version": "2.2",
+    "minimum-stability": "stable",
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "5.6.*|5.7.*"
+        "php": "^5.3.3 || ^7.0"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^7.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Zahidcse\\": "src/"
+    "require-dev": {},
+    "conflict": {},
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/zahidcse/helloworld.git"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Zahidcse\\Helloworld\\HelloworldServiceProvider"
-            ]
-        }
-    },
-    "license": "MIT",
+    ],
+    "license":"MIT",
     "authors": [
         {
-            "name": "zahid hasan",
-            "email": "zahiislink@gmail.com"
+            "name": "zahidhasan",
+            "email": "zahiislink@gmail.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev"
+    "support": {
+        "email": "zahiislink@gmail.com"
+    },
+    "time": "2019-09-15 00:00:00",
+    "autoload":{
+        "psr-4":{
+            "Zahidcse\\":"src/"
+        }
+    }
 }
