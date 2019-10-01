@@ -30,7 +30,7 @@
         }
     },
     "suggest": {
-        "zahidcse/hello": "Simple flash notifications for Laravel"
+        "zahidcse/helloworld": "Simple flash notifications for Laravel"
     },
     "minimum-stability": "stable",
     "extra": {
